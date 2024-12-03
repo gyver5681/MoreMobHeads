@@ -1,6 +1,6 @@
 
 $SourceEntitiesFolder = "C:\Projects\MCAddons\sources\more mob heads v2.14.2 (MC 1.21-1.21.3)\data\more_mob_heads\loot_table\entities"
-$OutputProjectRoot = "C:\Projects\MCAddons\BETA\mob-heads-beta"
+$OutputProjectRoot = "C:\Projects\MCAddons\\MoreMobHeads"
 $OutputLogFile = "$($OutputProjectRoot)\output.log"
 $BlockTemplateFile = "$($OutputProjectRoot)\blocks.txt"
 
@@ -9,8 +9,8 @@ $OutputTileLangFile = "$($OutputProjectRoot)\tempTileLang.txt"
 
 
 
-$OutputBPFolder = "$($OutputProjectRoot)\behavior_packs\mob-heads-beta"
-$OutputRPFolder = "$($OutputProjectRoot)\\resource_packs\mob-heads-beta"
+$OutputBPFolder = "$($OutputProjectRoot)\behavior_packs\more-mob-heads"
+$OutputRPFolder = "$($OutputProjectRoot)\\resource_packs\more-mob-heads"
 
 # Output Behavior Pack Folders
 $OutputBpBlocksFolder = "$($OutputBPFolder)\blocks"

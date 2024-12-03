@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:block": {
     "description": {
-      "identifier": "moremobheads:vex_head",
+      "identifier": "moremobheads:creaking_head",
       "menu_category": {
         "category": "none",
         "is_hidden_in_commands": true
@@ -29,7 +29,7 @@
       },
 
       "minecraft:geometry": {
-        "identifier": "geometry.mob_head_block",
+        "identifier": "geometry.more_mob_head_block",
         "bone_visibility": {
           "up_0": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation'), 4)",
           "up_22_5": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 1, 4)",
@@ -40,7 +40,7 @@
       },
       "minecraft:material_instances": {
         "*": {
-          "texture": "vex_head",
+          "texture": "creaking_head",
           "render_method": "alpha_test"
         }
       },

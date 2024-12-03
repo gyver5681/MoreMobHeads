@@ -72,6 +72,8 @@
 
     "cow_head": { "textures": "textures/blocks/cow_head" },
 
+    "creaking_head": { "textures": "textures/blocks/creaking_head" },
+
     "charged_creeper_head": { "textures": "textures/blocks/charged_creeper_head" },
 
     "cyan_sheep_head": { "textures": "textures/blocks/cyan_sheep_head" },

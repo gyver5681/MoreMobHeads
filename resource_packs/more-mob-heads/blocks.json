@@ -69,6 +69,8 @@
 
   "cow_head": { "sound": "stone", "textures": "cow_head" },
 
+  "creaking_head": { "sound": "stone", "textures": "creaking_head" },
+
   "charged_creeper_head": { "sound": "stone", "textures": "charged_creeper_head" },
 
   "cyan_sheep_head": { "sound": "stone", "textures": "cyan_sheep_head" },
