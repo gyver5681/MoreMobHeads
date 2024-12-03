@@ -1,0 +1,90 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "moremobheads:cold_frog_head",
+      "menu_category": {
+        "category": "none",
+        "is_hidden_in_commands": true
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:block_face"]
+        }
+      },
+      "states": {
+        "moremobheads:rotation": {
+          "values": { "min": 0, "max": 15 }
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 8, 8]
+      },
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 8, 8]
+      },
+
+      "minecraft:geometry": {
+        "identifier": "geometry.mob_head_block",
+        "bone_visibility": {
+          "up_0": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation'), 4)",
+          "up_22_5": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 1, 4)",
+          "up_45": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 2, 4)",
+          "up_67_5": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 3, 4)",
+          "side": "q.block_state('minecraft:block_face')  != 'up'"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cold_frog_head",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up", "side"]
+          }
+        ]
+      },
+      "minecraft:custom_components": ["moremobheads:head_rotation"]
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('moremobheads:rotation') >= 4 || q.block_state('minecraft:block_face')  == 'east'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('moremobheads:rotation') >= 8 || q.block_state('minecraft:block_face')  == 'south'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('moremobheads:rotation') >= 12 || q.block_state('minecraft:block_face')  == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') != 'up'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-4, 4, 0],
+            "size": [8, 8, 8]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 4, 0],
+            "size": [8, 8, 8]
+          }
+        }
+      }
+    ]
+  }
+}
