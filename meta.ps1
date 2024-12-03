@@ -1,6 +1,6 @@
 
 $SourceEntitiesFolder = "C:\Projects\MCAddons\sources\more mob heads v2.14.2 (MC 1.21-1.21.3)\data\more_mob_heads\loot_table\entities"
-$OutputProjectRoot = "C:\Projects\MCAddons\more-mob-heads"
+$OutputProjectRoot = "C:\Projects\MCAddons\BETA\mob-heads-beta"
 $OutputLogFile = "$($OutputProjectRoot)\output.log"
 $BlockTemplateFile = "$($OutputProjectRoot)\blocks.txt"
 
@@ -9,8 +9,8 @@ $OutputTileLangFile = "$($OutputProjectRoot)\tempTileLang.txt"
 
 
 
-$OutputBPFolder = "$($OutputProjectRoot)\behavior_packs\more-mob-heads"
-$OutputRPFolder = "$($OutputProjectRoot)\\resource_packs\more-mob-heads"
+$OutputBPFolder = "$($OutputProjectRoot)\behavior_packs\mob-heads-beta"
+$OutputRPFolder = "$($OutputProjectRoot)\\resource_packs\mob-heads-beta"
 
 # Output Behavior Pack Folders
 $OutputBpBlocksFolder = "$($OutputBPFolder)\blocks"
@@ -73,7 +73,7 @@ function BuildItemSet {
   Add-Content -Path $OutputRpTerrainTextures -Value """$($CleanedItemName)"": { ""textures"": ""textures/blocks/$($CleanedItemName)"" },`n"
   Add-Content -Path $OutputItemLangFile -Value "item.moremobheads:$($CleanedItemName)=$($ItemName)"
   Add-Content -Path $OutputTileLangFile -Value "tile.moremobheads:$($CleanedItemName).name=$($ItemName) Block"
-  Set-Content -Path "$($OutputRpAttachablesFolder)\$($CleanedItemName).attachable.json" -Value "{`n  ""format_version"": ""$($FormatVersionAttachable)"",`n  ""minecraft:attachable"": {`n    ""description"": {`n      ""identifier"": ""moremobheads:$($CleanedItemName)"",`n      ""render_controllers"": [""controller.render.armor""],`n      ""materials"": {`n        ""default"": ""entity_alphatest"",`n        ""enchanted"": ""entity_alphatest_glint""`n      },`n      ""textures"": {`n        ""default"": ""textures/entity/attachable/$($CleanedItemName)"",`n        ""enchanted"": ""textures/misc/enchanted_item_glint""`n      },`n      ""geometry"": {`n        ""default"": ""geometry.mob_head""`n      }`n    }`n  }`n}"
+  Set-Content -Path "$($OutputRpAttachablesFolder)\$($CleanedItemName).attachable.json" -Value "{`n  ""format_version"": ""$($FormatVersionAttachable)"",`n  ""minecraft:attachable"": {`n    ""description"": {`n      ""identifier"": ""moremobheads:$($CleanedItemName)"",`n      ""render_controllers"": [""controller.render.armor""],`n      ""materials"": {`n        ""default"": ""entity_alphatest"",`n        ""enchanted"": ""entity_alphatest_glint""`n      },`n      ""textures"": {`n        ""default"": ""textures/entity/attachable/$($CleanedItemName)"",`n        ""enchanted"": ""textures/misc/enchanted_item_glint""`n      },`n      ""geometry"": {`n        ""default"": ""geometry.more_mob_head""`n      }`n    }`n  }`n}"
 
   ## Behavior Pack
   (Get-Content -Path $BlockTemplateFile) |

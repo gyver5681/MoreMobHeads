@@ -13,7 +13,7 @@
         "enchanted": "textures/misc/enchanted_item_glint"
       },
       "geometry": {
-        "default": "geometry.mob_head"
+        "default": "geometry.more_mob_head"
       }
     }
   }
