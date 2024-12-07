@@ -14,7 +14,7 @@
         "slot": "slot.armor.head",
         "protection": 0
       },
-      "minecraft:block_placer": { "block": "moremobheads:elder_guardian_head" }
+      "minecraft:block_placer": { "block": "moremobheads:elder_guardian_head_block" }
     }
   }
 }

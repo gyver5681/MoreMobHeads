@@ -2,7 +2,7 @@
   "format_version": "1.21.40",
   "minecraft:block": {
     "description": {
-      "identifier": "moremobheads:fletcher_villager_head",
+      "identifier": "moremobheads:fletcher_villager_head_block",
       "menu_category": {
         "category": "none",
         "is_hidden_in_commands": true
@@ -19,6 +19,7 @@
       }
     },
     "components": {
+      "minecraft:loot": "loot_tables/blocks/fletcher_villager_head.json",
       "minecraft:collision_box": {
         "origin": [-4, 0, -4],
         "size": [8, 8, 8]

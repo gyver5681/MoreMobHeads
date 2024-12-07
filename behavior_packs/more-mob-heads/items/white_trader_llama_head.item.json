@@ -14,7 +14,7 @@
         "slot": "slot.armor.head",
         "protection": 0
       },
-      "minecraft:block_placer": { "block": "moremobheads:white_trader_llama_head" }
+      "minecraft:block_placer": { "block": "moremobheads:white_trader_llama_head_block" }
     }
   }
 }

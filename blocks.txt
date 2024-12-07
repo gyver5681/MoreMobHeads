@@ -2,7 +2,7 @@
   "format_version": "BLOCK_FMT_VER",
   "minecraft:block": {
     "description": {
-      "identifier": "moremobheads:ITEM_NAME",
+      "identifier": "moremobheads:ITEM_NAME_block",
       "menu_category": {
         "category": "none",
         "is_hidden_in_commands": true
@@ -19,6 +19,7 @@
       }
     },
     "components": {
+      "minecraft:loot": "loot_tables/blocks/ITEM_NAME.json",
       "minecraft:collision_box": {
         "origin": [-4, 0, -4],
         "size": [8, 8, 8]

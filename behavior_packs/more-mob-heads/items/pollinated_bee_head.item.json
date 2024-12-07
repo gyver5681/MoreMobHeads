@@ -14,7 +14,7 @@
         "slot": "slot.armor.head",
         "protection": 0
       },
-      "minecraft:block_placer": { "block": "moremobheads:pollinated_bee_head" }
+      "minecraft:block_placer": { "block": "moremobheads:pollinated_bee_head_block" }
     }
   }
 }

@@ -14,7 +14,7 @@
         "slot": "slot.armor.head",
         "protection": 0
       },
-      "minecraft:block_placer": { "block": "moremobheads:pillager_head" }
+      "minecraft:block_placer": { "block": "moremobheads:pillager_head_block" }
     }
   }
 }
