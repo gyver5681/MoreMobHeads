@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.vex.commands": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "on_entry": ["/scriptevent MoreMobHeads:vexcharging 0"],
+          "transitions": [
+            {
+              "charging": "query.is_charging"
+            }
+          ]
+        },
+        "charging": {
+          "on_entry": ["/scriptevent MoreMobHeads:vexcharging 1"],
+          "transitions": [
+            {
+              "default": "!query.is_charging"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

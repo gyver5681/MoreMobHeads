@@ -16,6 +16,7 @@ import * as LootTables from "./lootTables";
 const EventNamespace: string = "MoreMobHeads";
 const CallbackRegisterResponse: string = `${EventNamespace}:registerAddonResponse`;
 const CallbackAddLootEntryResponse: string = `${EventNamespace}:AddLootEntryResponse`;
+const CallbackVexCharging: string = `${EventNamespace}:vexcharging`;
 
 // RequestID generated randomly when the server loads so other addons can't just send requests on our behalf.
 const EventRequestID: string = `${Math.floor(Math.random() * 100000000)}`;
@@ -65,6 +66,15 @@ function ExtLootTableEventHandler(event: ScriptEventCommandMessageAfterEvent): v
           if (nextPool) SendLootTable(nextPool);
         });
         break;
+      }
+    }
+  }
+  if (event.id === CallbackVexCharging) {
+    if (event.sourceEntity) {
+      if (event.message === "1") {
+        event.sourceEntity.addTag("IsCharging");
+      } else {
+        event.sourceEntity.removeTag("IsCharging");
       }
     }
   }

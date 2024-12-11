@@ -2009,17 +2009,17 @@ const Vex: LootTablePool = {
         "name": "moremobheads:ambient_vex_head", 
         "weight": 1,
         "conditions": [
-          { "condition": "bool_property",
+          { "condition": "has_tag",
             "not": true,
-            "id": "minecraft:is_charging"
+            "id": "IsCharging"
           }] 
       },
       { "type": "item", 
         "name": "moremobheads:charge_vex_head", 
         "weight": 1,
         "conditions": [
-          { "condition": "bool_property",
-            "id": "minecraft:is_charging"
+          { "condition": "has_tag",
+            "id": "IsCharging"
           }] 
       }], 
     "conditions": [ 
