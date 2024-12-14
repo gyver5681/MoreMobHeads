@@ -1,6 +1,6 @@
 {
   "name": "more-mob-heads",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "productName": "More Mob Heads",
   "description": "More Mob Heads",
   "private": true,
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@minecraft/math": "^1.4.0",
-    "@minecraft/server": "^1.15.0",
+    "@minecraft/server": "^1.16.0",
     "@minecraft/server-ui": "^1.2.0",
     "@minecraft/vanilla-data": "^1.21.20"
   }
