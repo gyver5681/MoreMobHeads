@@ -1,13 +1,18 @@
 
+# Path to the entity loot table folder from Vanilla Tweaks' More Mob Heads mod download.
+# Changes to original folder
+#    Copied individual sheep json files from the sheep folder.
+#    Copied the Creaking file from v2.15.
+#    Updated the names in the vex.json file so that each entry will generate separate files.
+#    Updated the last varient in the wolf.json file to Pale Wolf.
 $SourceEntitiesFolder = "C:\Projects\MCAddons\stable\sources\more mob heads v2.14.2 (MC 1.21-1.21.3)\data\more_mob_heads\loot_table\entities"
+# Path to the root of this project.
 $OutputProjectRoot = "C:\Projects\MCAddons\stable\MoreMobHeads"
 $OutputLogFile = "$($OutputProjectRoot)\output.log"
 $BlockTemplateFile = "$($OutputProjectRoot)\blocks.txt"
 
 $OutputItemLangFile = "$($OutputProjectRoot)\tempItemLang.txt"
 $OutputTileLangFile = "$($OutputProjectRoot)\tempTileLang.txt"
-
-
 
 $OutputBPFolder = "$($OutputProjectRoot)\behavior_packs\more-mob-heads"
 $OutputRPFolder = "$($OutputProjectRoot)\\resource_packs\more-mob-heads"
@@ -34,8 +39,6 @@ $FormatVersionItem = "1.21.40"
 
 $ReplaceLitBlockFormatVersion = "BLOCK_FMT_VER"
 $ReplaceLitItemName = "ITEM_NAME"
-
-
 
 # JSON Snippits
 $BlocksJsonHeader = "{`n  ""format_version"": ""$($FormatVersionBlocks)"","
