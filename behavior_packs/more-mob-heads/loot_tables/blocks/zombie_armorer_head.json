@@ -1,3 +1,3 @@
 {
-  "pools": [{ "rolls": 1, "entries": [{ "type": "item", "name": "moremobheads:zombie_armorer_head" }] }]
+  "pools": [{ "rolls": 1, "entries": [{ "type": "item", "name": "moremobheads:zombie_armorer_head_block" }] }]
 }

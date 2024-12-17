@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:wither_projectile_head_attachable_from_block"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:wither_projectile_head_block"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:wither_projectile_head_block"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:wither_projectile_head"
+    },
+    "tags": ["crafting_table"]
+  }
+}

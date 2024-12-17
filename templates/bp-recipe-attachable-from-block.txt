@@ -1,0 +1,24 @@
+{
+  "format_version": "FMT_VER",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:ITEM_NAME_attachable_from_block"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:ITEM_NAME_block"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:ITEM_NAME_block"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:ITEM_NAME"
+    },
+    "tags": ["crafting_table"]
+  }
+}

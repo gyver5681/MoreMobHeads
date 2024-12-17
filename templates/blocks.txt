@@ -1,5 +1,5 @@
 {
-  "format_version": "BLOCK_FMT_VER",
+  "format_version": "FMT_VER",
   "minecraft:block": {
     "description": {
       "identifier": "moremobheads:ITEM_NAME_block",

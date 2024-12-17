@@ -108,7 +108,7 @@ const Allay: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:allay_head", 
+        "name": "moremobheads:allay_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -127,7 +127,7 @@ const Armadillo: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:armadillo_head", 
+        "name": "moremobheads:armadillo_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -146,7 +146,7 @@ const Axolotl: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:lucy_axolotl_head", 
+        "name": "moremobheads:lucy_axolotl_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -154,7 +154,7 @@ const Axolotl: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:cyan_axolotl_head",
+        "name": "moremobheads:cyan_axolotl_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -162,7 +162,7 @@ const Axolotl: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:gold_axolotl_head",
+        "name": "moremobheads:gold_axolotl_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -170,7 +170,7 @@ const Axolotl: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:wild_axolotl_head",
+        "name": "moremobheads:wild_axolotl_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -178,7 +178,7 @@ const Axolotl: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:blue_axolotl_head",
+        "name": "moremobheads:blue_axolotl_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -207,7 +207,7 @@ const Bat: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:bat_head", 
+        "name": "moremobheads:bat_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -226,7 +226,7 @@ const Bee: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:angry_bee_head", 
+        "name": "moremobheads:angry_bee_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -238,7 +238,7 @@ const Bee: LootTablePool = {
           }] 
       },
       { "type": "item", 
-        "name": "moremobheads:angry_pollinated_bee_head", 
+        "name": "moremobheads:angry_pollinated_bee_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -249,7 +249,7 @@ const Bee: LootTablePool = {
           }] 
       },      
       { "type": "item", 
-        "name": "moremobheads:pollinated_bee_head", 
+        "name": "moremobheads:pollinated_bee_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -261,7 +261,7 @@ const Bee: LootTablePool = {
           }] 
       },            
       { "type": "item", 
-        "name": "moremobheads:bee_head", 
+        "name": "moremobheads:bee_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -288,7 +288,7 @@ const Blaze: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:blaze_head", 
+        "name": "moremobheads:blaze_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -307,7 +307,7 @@ const Bogged: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:bogged_head", 
+        "name": "moremobheads:bogged_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -326,7 +326,7 @@ const Breeze: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:breeze_head", 
+        "name": "moremobheads:breeze_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -345,7 +345,7 @@ const Camel: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:camel_head", 
+        "name": "moremobheads:camel_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -360,7 +360,7 @@ const Cat: LootTablePool = {
     "rolls": 1, 
     "entries": [
       { "type": "item", 
-        "name": "moremobheads:white_cat_head", 
+        "name": "moremobheads:white_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -368,7 +368,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:tuxedo_cat_head", 
+        "name": "moremobheads:tuxedo_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -376,7 +376,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:ginger_cat_head", 
+        "name": "moremobheads:ginger_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -384,7 +384,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:siamese_cat_head", 
+        "name": "moremobheads:siamese_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -392,7 +392,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:british_shorthair_cat_head", 
+        "name": "moremobheads:british_shorthair_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -400,7 +400,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:calico_cat_head", 
+        "name": "moremobheads:calico_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -408,7 +408,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:persian_cat_head", 
+        "name": "moremobheads:persian_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -416,7 +416,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:ragdoll_cat_head", 
+        "name": "moremobheads:ragdoll_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -424,7 +424,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:tabby_cat_head", 
+        "name": "moremobheads:tabby_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -432,7 +432,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:black_cat_head", 
+        "name": "moremobheads:black_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -440,7 +440,7 @@ const Cat: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:jellie_cat_head", 
+        "name": "moremobheads:jellie_cat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -463,7 +463,7 @@ const CaveSpider: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:cave_spider_head", 
+        "name": "moremobheads:cave_spider_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -482,7 +482,7 @@ const Chicken: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:chicken_head", 
+        "name": "moremobheads:chicken_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -501,7 +501,7 @@ const Cod: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:cod_head", 
+        "name": "moremobheads:cod_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -520,7 +520,7 @@ const Cow: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:cow_head", 
+        "name": "moremobheads:cow_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -539,7 +539,7 @@ const ChargedCreeper: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:charged_creeper_head", 
+        "name": "moremobheads:charged_creeper_head_block", 
         "weight": 1
       }], 
     "conditions": [ 
@@ -557,7 +557,7 @@ const Dolphin: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:dolphin_head", 
+        "name": "moremobheads:dolphin_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -576,7 +576,7 @@ const Donkey: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:donkey_head", 
+        "name": "moremobheads:donkey_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -595,7 +595,7 @@ const Drowned: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:drowned_head", 
+        "name": "moremobheads:drowned_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -614,7 +614,7 @@ const ElderGuardian: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:elder_guardian_head", 
+        "name": "moremobheads:elder_guardian_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -629,7 +629,7 @@ const Enderman: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:enderman_head", 
+        "name": "moremobheads:enderman_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -648,7 +648,7 @@ const Endermmite: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:endermite_head", 
+        "name": "moremobheads:endermite_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -667,7 +667,7 @@ const Evoker: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:evoker_head", 
+        "name": "moremobheads:evoker_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -686,7 +686,7 @@ const Fox: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:fox_head", 
+        "name": "moremobheads:fox_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -694,7 +694,7 @@ const Fox: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:snow_fox_head",
+        "name": "moremobheads:snow_fox_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -717,7 +717,7 @@ const Frog: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:temperate_frog_head", 
+        "name": "moremobheads:temperate_frog_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -725,7 +725,7 @@ const Frog: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:cold_frog_head",
+        "name": "moremobheads:cold_frog_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -733,7 +733,7 @@ const Frog: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:warm_frog_head",
+        "name": "moremobheads:warm_frog_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -756,7 +756,7 @@ const Ghast: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:ghast_head", 
+        "name": "moremobheads:ghast_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -775,7 +775,7 @@ const GlowSquid: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:glow_squid_head", 
+        "name": "moremobheads:glow_squid_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -794,7 +794,7 @@ const Goat: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:goat_head", 
+        "name": "moremobheads:goat_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -802,7 +802,7 @@ const Goat: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:screaming_goat_head",
+        "name": "moremobheads:screaming_goat_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -831,7 +831,7 @@ const Guardian: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:guardian_head", 
+        "name": "moremobheads:guardian_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -850,7 +850,7 @@ const Hoglin: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:hoglin_head", 
+        "name": "moremobheads:hoglin_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -869,7 +869,7 @@ const Horse: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:white_horse_head", 
+        "name": "moremobheads:white_horse_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -877,7 +877,7 @@ const Horse: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:creamy_horse_head",
+        "name": "moremobheads:creamy_horse_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -885,7 +885,7 @@ const Horse: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:chestnut_horse_head",
+        "name": "moremobheads:chestnut_horse_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -893,7 +893,7 @@ const Horse: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:brown_horse_head",
+        "name": "moremobheads:brown_horse_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -901,7 +901,7 @@ const Horse: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:black_horse_head",
+        "name": "moremobheads:black_horse_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -909,7 +909,7 @@ const Horse: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:gray_horse_head",
+        "name": "moremobheads:gray_horse_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -917,7 +917,7 @@ const Horse: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:dark_brown_horse_head",
+        "name": "moremobheads:dark_brown_horse_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -940,7 +940,7 @@ const Husk: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:husk_head", 
+        "name": "moremobheads:husk_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -961,7 +961,7 @@ const Illusioner: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:illusioner_head", 
+        "name": "moremobheads:illusioner_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -981,7 +981,7 @@ const IronGolem: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:iron_golem_head", 
+        "name": "moremobheads:iron_golem_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1000,7 +1000,7 @@ const Llama: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:creamy_llama_head", 
+        "name": "moremobheads:creamy_llama_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1008,7 +1008,7 @@ const Llama: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:white_llama_head",
+        "name": "moremobheads:white_llama_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1016,7 +1016,7 @@ const Llama: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:brown_llama_head",
+        "name": "moremobheads:brown_llama_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1024,7 +1024,7 @@ const Llama: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:gray_llama_head",
+        "name": "moremobheads:gray_llama_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1047,7 +1047,7 @@ const MagmaCube: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:magma_cube_head", 
+        "name": "moremobheads:magma_cube_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1066,7 +1066,7 @@ const Mooshroom: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:red_mooshroom_head", 
+        "name": "moremobheads:red_mooshroom_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1074,7 +1074,7 @@ const Mooshroom: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:brown_mooshroom_head",
+        "name": "moremobheads:brown_mooshroom_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1097,7 +1097,7 @@ const Mule: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:mule_head", 
+        "name": "moremobheads:mule_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1116,7 +1116,7 @@ const Ocelot: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:ocelot_head", 
+        "name": "moremobheads:ocelot_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1135,7 +1135,7 @@ const Panda: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:panda_head", 
+        "name": "moremobheads:panda_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1143,7 +1143,7 @@ const Panda: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:lazy_panda_head",
+        "name": "moremobheads:lazy_panda_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1151,7 +1151,7 @@ const Panda: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:worried_panda_head",
+        "name": "moremobheads:worried_panda_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1159,7 +1159,7 @@ const Panda: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:playful_panda_head",
+        "name": "moremobheads:playful_panda_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1167,7 +1167,7 @@ const Panda: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:brown_panda_head",
+        "name": "moremobheads:brown_panda_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1175,7 +1175,7 @@ const Panda: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:weak_panda_head",
+        "name": "moremobheads:weak_panda_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1183,7 +1183,7 @@ const Panda: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:aggressive_panda_head",
+        "name": "moremobheads:aggressive_panda_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1206,7 +1206,7 @@ const Parrot: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:red_parrot_head", 
+        "name": "moremobheads:red_parrot_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1214,7 +1214,7 @@ const Parrot: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:blue_parrot_head",
+        "name": "moremobheads:blue_parrot_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1222,7 +1222,7 @@ const Parrot: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:green_parrot_head",
+        "name": "moremobheads:green_parrot_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1230,7 +1230,7 @@ const Parrot: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:light_blue_parrot_head",
+        "name": "moremobheads:light_blue_parrot_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1238,7 +1238,7 @@ const Parrot: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:gray_parrot_head",
+        "name": "moremobheads:gray_parrot_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1261,7 +1261,7 @@ const Phantom: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:phantom_head", 
+        "name": "moremobheads:phantom_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1280,7 +1280,7 @@ const Pig: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:pig_head", 
+        "name": "moremobheads:pig_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1299,7 +1299,7 @@ const PiglinBrute: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:piglin_brute_head", 
+        "name": "moremobheads:piglin_brute_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1318,7 +1318,7 @@ const Pillager: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:pillager_head", 
+        "name": "moremobheads:pillager_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1337,7 +1337,7 @@ const PolarBear: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:polar_bear_head", 
+        "name": "moremobheads:polar_bear_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1356,7 +1356,7 @@ const Pufferfish: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:pufferfish_head", 
+        "name": "moremobheads:pufferfish_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1375,7 +1375,7 @@ const Rabbit: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:brown_rabbit_head", 
+        "name": "moremobheads:brown_rabbit_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1383,7 +1383,7 @@ const Rabbit: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:white_rabbit_head",
+        "name": "moremobheads:white_rabbit_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1391,7 +1391,7 @@ const Rabbit: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:black_rabbit_head",
+        "name": "moremobheads:black_rabbit_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1399,7 +1399,7 @@ const Rabbit: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:black_and_white_rabbit_head",
+        "name": "moremobheads:black_and_white_rabbit_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1407,7 +1407,7 @@ const Rabbit: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:gold_rabbit_head",
+        "name": "moremobheads:gold_rabbit_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1415,7 +1415,7 @@ const Rabbit: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:salt_and_pepper_rabbit_head",
+        "name": "moremobheads:salt_and_pepper_rabbit_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1423,7 +1423,7 @@ const Rabbit: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:the_killer_bunny_head",
+        "name": "moremobheads:the_killer_bunny_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1455,7 +1455,7 @@ const ToastRabbit: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:toast_head", 
+        "name": "moremobheads:toast_head_block", 
         "weight": 1
       }], 
     "conditions": [
@@ -1473,7 +1473,7 @@ const Ravager: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:ravager_head", 
+        "name": "moremobheads:ravager_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1492,7 +1492,7 @@ const Salmon: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:salmon_head", 
+        "name": "moremobheads:salmon_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1511,7 +1511,7 @@ const Sheep1: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:white_sheep_head", 
+        "name": "moremobheads:white_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1519,7 +1519,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:orange_sheep_head", 
+        "name": "moremobheads:orange_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1527,7 +1527,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:magenta_sheep_head", 
+        "name": "moremobheads:magenta_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1535,7 +1535,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:light_blue_sheep_head", 
+        "name": "moremobheads:light_blue_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1543,7 +1543,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:yellow_sheep_head", 
+        "name": "moremobheads:yellow_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1551,7 +1551,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:lime_sheep_head", 
+        "name": "moremobheads:lime_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1559,7 +1559,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:pink_sheep_head", 
+        "name": "moremobheads:pink_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1567,7 +1567,7 @@ const Sheep1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:gray_sheep_head", 
+        "name": "moremobheads:gray_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1598,7 +1598,7 @@ const Sheep2: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:light_gray_sheep_head", 
+        "name": "moremobheads:light_gray_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1606,7 +1606,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:cyan_sheep_head", 
+        "name": "moremobheads:cyan_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1614,7 +1614,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:purple_sheep_head", 
+        "name": "moremobheads:purple_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1622,7 +1622,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:blue_sheep_head", 
+        "name": "moremobheads:blue_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1630,7 +1630,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:brown_sheep_head", 
+        "name": "moremobheads:brown_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1638,7 +1638,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:green_sheep_head", 
+        "name": "moremobheads:green_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1646,7 +1646,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:red_sheep_head", 
+        "name": "moremobheads:red_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1654,7 +1654,7 @@ const Sheep2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:black_sheep_head", 
+        "name": "moremobheads:black_sheep_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "color_component",
@@ -1685,7 +1685,7 @@ const JebSheep: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:jeb__sheep_head", 
+        "name": "moremobheads:jeb__sheep_head_block", 
         "weight": 1
       }], 
     "conditions": [
@@ -1703,7 +1703,7 @@ const Shulker: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:shulker_head", 
+        "name": "moremobheads:shulker_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1722,7 +1722,7 @@ const Silverfish: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:silverfish_head", 
+        "name": "moremobheads:silverfish_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1741,7 +1741,7 @@ const SkeletonHorse: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:skeleton_horse_head", 
+        "name": "moremobheads:skeleton_horse_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1760,7 +1760,7 @@ const Slime: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:slime_head", 
+        "name": "moremobheads:slime_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1779,7 +1779,7 @@ const Sniffer: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:sniffer_head", 
+        "name": "moremobheads:sniffer_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1794,7 +1794,7 @@ const SnowGolem: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:snow_golemn_head", 
+        "name": "moremobheads:snow_golemn_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1813,7 +1813,7 @@ const Spider: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:spider_head", 
+        "name": "moremobheads:spider_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1832,7 +1832,7 @@ const Squid: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:squid_head", 
+        "name": "moremobheads:squid_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1851,7 +1851,7 @@ const Stray: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:stray_head", 
+        "name": "moremobheads:stray_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1870,7 +1870,7 @@ const Strider: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:cold_strider_head", 
+        "name": "moremobheads:cold_strider_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -1878,7 +1878,7 @@ const Strider: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:strider_head", 
+        "name": "moremobheads:strider_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -1902,7 +1902,7 @@ const Tadpole: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:tadpole_head", 
+        "name": "moremobheads:tadpole_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1921,7 +1921,7 @@ const TraderLlama: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:creamy_llama_head", 
+        "name": "moremobheads:creamy_llama_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1929,7 +1929,7 @@ const TraderLlama: LootTablePool = {
         ] 
       },
       { "type": "item",
-        "name": "moremobheads:white_llama_head",
+        "name": "moremobheads:white_llama_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1937,7 +1937,7 @@ const TraderLlama: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:brown_llama_head",
+        "name": "moremobheads:brown_llama_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1945,7 +1945,7 @@ const TraderLlama: LootTablePool = {
         ]
       },
       { "type": "item",
-        "name": "moremobheads:gray_llama_head",
+        "name": "moremobheads:gray_llama_head_block",
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -1968,7 +1968,7 @@ const Tropicalfish: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:tropical_fish_head", 
+        "name": "moremobheads:tropical_fish_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -1987,7 +1987,7 @@ const Turtle: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:turtle_head", 
+        "name": "moremobheads:turtle_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -2006,7 +2006,7 @@ const Vex: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:ambient_vex_head", 
+        "name": "moremobheads:ambient_vex_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -2015,7 +2015,7 @@ const Vex: LootTablePool = {
           }] 
       },
       { "type": "item", 
-        "name": "moremobheads:charge_vex_head", 
+        "name": "moremobheads:charge_vex_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -2038,7 +2038,7 @@ const Villager1: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:villager_head", 
+        "name": "moremobheads:villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2046,7 +2046,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:farmer_villager_head", 
+        "name": "moremobheads:farmer_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2054,7 +2054,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:fisherman_villager_head", 
+        "name": "moremobheads:fisherman_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2062,7 +2062,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:shepherd_villager_head", 
+        "name": "moremobheads:shepherd_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2070,7 +2070,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:fletcher_villager_head", 
+        "name": "moremobheads:fletcher_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2078,7 +2078,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:librarian_villager_head", 
+        "name": "moremobheads:librarian_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2086,7 +2086,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:cartographer_villager_head", 
+        "name": "moremobheads:cartographer_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2094,7 +2094,7 @@ const Villager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:cleric_villager_head", 
+        "name": "moremobheads:cleric_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2117,7 +2117,7 @@ const Villager2: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:armorer_villager_head", 
+        "name": "moremobheads:armorer_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2125,7 +2125,7 @@ const Villager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:weaponsmith_villager_head", 
+        "name": "moremobheads:weaponsmith_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2133,7 +2133,7 @@ const Villager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:toolsmith_villager_head", 
+        "name": "moremobheads:toolsmith_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2141,7 +2141,7 @@ const Villager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:butcher_villager_head", 
+        "name": "moremobheads:butcher_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2149,7 +2149,7 @@ const Villager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:leatherworker_villager_head", 
+        "name": "moremobheads:leatherworker_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2157,7 +2157,7 @@ const Villager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:mason_villager_head", 
+        "name": "moremobheads:mason_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2165,7 +2165,7 @@ const Villager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:nitwit_villager_head", 
+        "name": "moremobheads:nitwit_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2188,7 +2188,7 @@ const Vindicator: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:vindicator_head", 
+        "name": "moremobheads:vindicator_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -2207,7 +2207,7 @@ const WanderingTrader: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:wandering_trader_head", 
+        "name": "moremobheads:wandering_trader_head_block", 
         "weight": 1 
       }], 
     "conditions": [{ "condition": "killed_by_player" }]
@@ -2221,7 +2221,7 @@ const Warden: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:warden_head", 
+        "name": "moremobheads:warden_head_block", 
         "weight": 1 
       }], 
     "conditions": [{ "condition": "killed_by_player" }]
@@ -2235,7 +2235,7 @@ const Witch: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:witch_head", 
+        "name": "moremobheads:witch_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -2254,7 +2254,7 @@ const Wither: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:wither_head", 
+        "name": "moremobheads:wither_head_block", 
         "weight": 1 
       }], 
     "conditions": [{ "condition": "killed_by_player" }]
@@ -2268,11 +2268,11 @@ const WitherProjectile: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:wither_projectile_head", 
+        "name": "moremobheads:wither_projectile_head_block", 
         "weight": 1 
       },
       { "type": "item", 
-        "name": "moremobheads:blue_wither_projectile_head", 
+        "name": "moremobheads:blue_wither_projectile_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -2290,7 +2290,7 @@ const Wolf: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:wolf_head", 
+        "name": "moremobheads:wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2298,7 +2298,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:ashen_wolf_head", 
+        "name": "moremobheads:ashen_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2306,7 +2306,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:black_wolf_head", 
+        "name": "moremobheads:black_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2314,7 +2314,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:chestnut_wolf_head", 
+        "name": "moremobheads:chestnut_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2322,7 +2322,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:rusty_wolf_head", 
+        "name": "moremobheads:rusty_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2330,7 +2330,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:spotty_wolf_head", 
+        "name": "moremobheads:spotty_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2338,7 +2338,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:striped_wolf_head", 
+        "name": "moremobheads:striped_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2346,7 +2346,7 @@ const Wolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:woods_wolf_head", 
+        "name": "moremobheads:woods_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2377,7 +2377,7 @@ const AngryWolf: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:angry_wolf_head", 
+        "name": "moremobheads:angry_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2385,7 +2385,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_ashen_wolf_head", 
+        "name": "moremobheads:angry_ashen_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2393,7 +2393,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_black_wolf_head", 
+        "name": "moremobheads:angry_black_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2401,7 +2401,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_chestnut_wolf_head", 
+        "name": "moremobheads:angry_chestnut_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2409,7 +2409,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_rusty_wolf_head", 
+        "name": "moremobheads:angry_rusty_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2417,7 +2417,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_spotty_wolf_head", 
+        "name": "moremobheads:angry_spotty_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2425,7 +2425,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_striped_wolf_head", 
+        "name": "moremobheads:angry_striped_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2433,7 +2433,7 @@ const AngryWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_woods_wolf_head", 
+        "name": "moremobheads:angry_woods_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2463,7 +2463,7 @@ const SnowyWolf: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:snowy_wolf_head", 
+        "name": "moremobheads:snowy_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -2472,7 +2472,7 @@ const SnowyWolf: LootTablePool = {
           }]
       },
       { "type": "item", 
-        "name": "moremobheads:angry_snowy_wolf_head", 
+        "name": "moremobheads:angry_snowy_wolf_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_tag",
@@ -2497,7 +2497,7 @@ const Zoglin: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:zoglin_head", 
+        "name": "moremobheads:zoglin_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 
@@ -2516,7 +2516,7 @@ const ZombieHorse: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:zombie_horse_head", 
+        "name": "moremobheads:zombie_horse_head_block", 
         "weight": 1 
       }], 
     "conditions": [{ "condition": "killed_by_player" }]
@@ -2530,7 +2530,7 @@ const ZombieVillager1: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:zombie_villager_head", 
+        "name": "moremobheads:zombie_villager_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2538,7 +2538,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_farmer_head", 
+        "name": "moremobheads:zombie_farmer_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2546,7 +2546,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_fisherman_head", 
+        "name": "moremobheads:zombie_fisherman_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2554,7 +2554,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_shepherd_head", 
+        "name": "moremobheads:zombie_shepherd_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2562,7 +2562,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_fletcher_head", 
+        "name": "moremobheads:zombie_fletcher_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2570,7 +2570,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_librarian_head", 
+        "name": "moremobheads:zombie_librarian_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2578,7 +2578,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_cartographer_head", 
+        "name": "moremobheads:zombie_cartographer_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2586,7 +2586,7 @@ const ZombieVillager1: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_cleric_head", 
+        "name": "moremobheads:zombie_cleric_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2613,7 +2613,7 @@ const ZombieVillager2: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:zombie_armorer_head", 
+        "name": "moremobheads:zombie_armorer_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2621,7 +2621,7 @@ const ZombieVillager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_weaponsmith_head", 
+        "name": "moremobheads:zombie_weaponsmith_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2629,7 +2629,7 @@ const ZombieVillager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_toolsmith_head", 
+        "name": "moremobheads:zombie_toolsmith_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2637,7 +2637,7 @@ const ZombieVillager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_butcher_head", 
+        "name": "moremobheads:zombie_butcher_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2645,7 +2645,7 @@ const ZombieVillager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_leatherworker_head", 
+        "name": "moremobheads:zombie_leatherworker_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2653,7 +2653,7 @@ const ZombieVillager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_mason_head", 
+        "name": "moremobheads:zombie_mason_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2661,7 +2661,7 @@ const ZombieVillager2: LootTablePool = {
         ] 
       },
       { "type": "item", 
-        "name": "moremobheads:zombie_nitwit_head", 
+        "name": "moremobheads:zombie_nitwit_head_block", 
         "weight": 1,
         "conditions": [
           { "condition": "has_variant",
@@ -2688,7 +2688,7 @@ const ZombiePigman: LootTablePool = {
     "rolls": 1, 
     "entries": [ 
       { "type": "item", 
-        "name": "moremobheads:zombified_piglin_head", 
+        "name": "moremobheads:zombified_piglin_head_block", 
         "weight": 1 
       }], 
     "conditions": [ 

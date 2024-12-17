@@ -1,3 +1,3 @@
 {
-  "pools": [{ "rolls": 1, "entries": [{ "type": "item", "name": "moremobheads:wandering_trader_head" }] }]
+  "pools": [{ "rolls": 1, "entries": [{ "type": "item", "name": "moremobheads:wandering_trader_head_block" }] }]
 }

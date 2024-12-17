@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:weaponsmith_villager_head_attachable_from_block"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:weaponsmith_villager_head_block"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:weaponsmith_villager_head_block"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:weaponsmith_villager_head"
+    },
+    "tags": ["crafting_table"]
+  }
+}

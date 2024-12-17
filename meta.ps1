@@ -9,7 +9,14 @@ $SourceEntitiesFolder = "C:\Projects\MCAddons\stable\sources\more mob heads v2.1
 # Path to the root of this project.
 $OutputProjectRoot = "C:\Projects\MCAddons\stable\MoreMobHeads"
 $OutputLogFile = "$($OutputProjectRoot)\output.log"
-$BlockTemplateFile = "$($OutputProjectRoot)\blocks.txt"
+$TemplatesFolder = "$($OutputProjectRoot)\templates"
+
+# Template Paths
+$BlockTemplateFile = "$($TemplatesFolder)\blocks.txt"
+$AttachableTemplateFile = "$($TemplatesFolder)\rp-attachable.txt"
+$PlacerTemplateFile = "$($TemplatesFolder)\bp-placer-item.txt"
+$RecipeAfromBTemplateFile = "$($TemplatesFolder)\bp-recipe-attachable-from-block.txt"
+$RecipeBfromATemplateFile = "$($TemplatesFolder)\bp-recipe-block-from-attachable.txt"
 
 $OutputItemLangFile = "$($OutputProjectRoot)\tempItemLang.txt"
 $OutputTileLangFile = "$($OutputProjectRoot)\tempTileLang.txt"
@@ -21,6 +28,7 @@ $OutputRPFolder = "$($OutputProjectRoot)\\resource_packs\more-mob-heads"
 $OutputBpBlocksFolder = "$($OutputBPFolder)\blocks"
 $OutputBpItemsFolder = "$($OutputBPFolder)\items"
 $OutputBpBlocksLootTableFolder = "$($OutputBPFolder)\loot_tables\blocks"
+$OutputBpRecipesFolder = "$($OutputBPFolder)\recipes"
 
 # Output Resource Pack Folders
 $OutputRpAttachablesFolder = "$($OutputRPFolder)\attachables"
@@ -36,8 +44,9 @@ $OutputRpBlocks = "$($OutputRPFolder)\blocks.json"
 $FormatVersionBlocks = "1.21.40"
 $FormatVersionAttachable = "1.10.0"
 $FormatVersionItem = "1.21.40"
+$FormatVersionRecipe = "1.20.10"
 
-$ReplaceLitBlockFormatVersion = "BLOCK_FMT_VER"
+$ReplaceLitFormatVersion = "FMT_VER"
 $ReplaceLitItemName = "ITEM_NAME"
 
 # JSON Snippits
@@ -81,16 +90,35 @@ function BuildItemSet {
   }
   Add-Content -Path $OutputItemLangFile -Value "item.moremobheads:$($CleanedItemName)=$($ItemName)"
   Add-Content -Path $OutputTileLangFile -Value "tile.moremobheads:$($CleanedItemName)_block.name=$($ItemName) Block"
-  Set-Content -Path "$($OutputRpAttachablesFolder)\$($CleanedItemName).attachable.json" -Value "{`n  ""format_version"": ""$($FormatVersionAttachable)"",`n  ""minecraft:attachable"": {`n    ""description"": {`n      ""identifier"": ""moremobheads:$($CleanedItemName)"",`n      ""render_controllers"": [""controller.render.armor""],`n      ""materials"": {`n        ""default"": ""entity_alphatest"",`n        ""enchanted"": ""entity_alphatest_glint""`n      },`n      ""textures"": {`n        ""default"": ""textures/entity/attachable/$($CleanedItemName)"",`n        ""enchanted"": ""textures/misc/enchanted_item_glint""`n      },`n      ""geometry"": {`n        ""default"": ""geometry.more_mob_head""`n      }`n    }`n  }`n}"
-  Set-Content -Path "$($OutputBpBlocksLootTableFolder)\$($CleanedItemName).json" -Value "{`n  ""pools"": [{ ""rolls"": 1, ""entries"": [{ ""type"": ""item"", ""name"": ""moremobheads:$($CleanedItemName)"" }] }]`n}"
+
+  # Attachables
+  (Get-Content -Path $AttachableTemplateFile) |
+  ForEach-Object { ($_).replace($ReplaceLitFormatVersion, $FormatVersionAttachable).replace($ReplaceLitItemName, $CleanedItemName) } |
+  Set-Content -Path "$($OutputRpAttachablesFolder)\$($CleanedItemName).attachable.json"
 
   ## Behavior Pack
   (Get-Content -Path $BlockTemplateFile) |
-  ForEach-Object { ($_).replace($ReplaceLitBlockFormatVersion, $FormatVersionBlocks).replace($ReplaceLitItemName, $CleanedItemName) } |
+  ForEach-Object { ($_).replace($ReplaceLitFormatVersion, $FormatVersionBlocks).replace($ReplaceLitItemName, $CleanedItemName) } |
   Set-Content -Path "$($OutputBpBlocksFolder)\$($CleanedItemName).json"
 
-  Set-Content -Path "$($OutputBpItemsFolder)\$($CleanedItemName).item.json" -Value "{`n  ""format_version"": ""$($FormatVersionItem)"",`n  ""minecraft:item"": {`n    ""description"": {`n      ""identifier"": ""moremobheads:$($CleanedItemName)"",`n      ""menu_category"": {`n        ""category"": ""items"",`n        ""group"": ""itemGroup.name.skull""`n      }`n    },`n    ""components"": {`n      ""minecraft:max_stack_size"": 1,`n      ""minecraft:wearable"": {`n        ""slot"": ""slot.armor.head"",`n        ""protection"": 0`n      },`n      ""minecraft:block_placer"": { ""block"": ""moremobheads:$($CleanedItemName)_block"" }`n    }`n  }`n}"
+  # Items
+  (Get-Content -Path $PlacerTemplateFile) |
+  ForEach-Object { ($_).replace($ReplaceLitFormatVersion, $FormatVersionItem).replace($ReplaceLitItemName, $CleanedItemName) } |
+  Set-Content -Path "$($OutputBpItemsFolder)\$($CleanedItemName).item.json"
+  # Set-Content -Path "$($OutputBpItemsFolder)\$($CleanedItemName).item.json" -Value "{`n  ""format_version"": ""$($FormatVersionItem)"",`n  ""minecraft:item"": {`n    ""description"": {`n      ""identifier"": ""moremobheads:$($CleanedItemName)"",`n      ""menu_category"": {`n        ""category"": ""items"",`n        ""group"": ""itemGroup.name.skull""`n      }`n    },`n    ""components"": {`n      ""minecraft:max_stack_size"": 1,`n      ""minecraft:wearable"": {`n        ""slot"": ""slot.armor.head"",`n        ""protection"": 0`n      },`n      ""minecraft:block_placer"": { ""block"": ""moremobheads:$($CleanedItemName)_block"" }`n    }`n  }`n}"
 
+  # Items
+  Set-Content -Path "$($OutputBpBlocksLootTableFolder)\$($CleanedItemName).json" -Value "{`n  ""pools"": [{ ""rolls"": 1, ""entries"": [{ ""type"": ""item"", ""name"": ""moremobheads:$($CleanedItemName)_block"" }] }]`n}"
+
+  # Recipes  
+  (Get-Content -Path $RecipeAfromBTemplateFile) |
+  ForEach-Object { ($_).replace($ReplaceLitFormatVersion, $FormatVersionRecipe).replace($ReplaceLitItemName, $CleanedItemName) } |
+  Set-Content -Path "$($OutputBpRecipesFolder)\$($CleanedItemName)_attachable_from_block.json"
+
+  (Get-Content -Path $RecipeBfromATemplateFile) |
+  ForEach-Object { ($_).replace($ReplaceLitFormatVersion, $FormatVersionRecipe).replace($ReplaceLitItemName, $CleanedItemName) } |
+  Set-Content -Path "$($OutputBpRecipesFolder)\$($CleanedItemName)_block_from_attachable.json"
+  
 }
 
 function IterateProps {

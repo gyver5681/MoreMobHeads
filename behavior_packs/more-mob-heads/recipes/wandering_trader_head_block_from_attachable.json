@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:wandering_trader_head_block_from_attachable"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:wandering_trader_head"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:wandering_trader_head"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:wandering_trader_head_block"
+    },
+    "tags": ["crafting_table"]
+  }
+}

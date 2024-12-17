@@ -1,3 +1,3 @@
 {
-  "pools": [{ "rolls": 1, "entries": [{ "type": "item", "name": "moremobheads:farmer_villager_head" }] }]
+  "pools": [{ "rolls": 1, "entries": [{ "type": "item", "name": "moremobheads:farmer_villager_head_block" }] }]
 }

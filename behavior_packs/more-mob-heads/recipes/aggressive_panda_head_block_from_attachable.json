@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:aggressive_panda_head_block_from_attachable"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:aggressive_panda_head"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:aggressive_panda_head"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:aggressive_panda_head_block"
+    },
+    "tags": ["crafting_table"]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:cave_spider_head_block_from_attachable"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:cave_spider_head"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:cave_spider_head"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:cave_spider_head_block"
+    },
+    "tags": ["crafting_table"]
+  }
+}

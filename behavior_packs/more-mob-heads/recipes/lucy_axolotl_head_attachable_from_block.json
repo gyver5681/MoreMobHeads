@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "moremobheads:lucy_axolotl_head_attachable_from_block"
+    },
+    "ingredients": [
+      {
+        "item": "moremobheads:lucy_axolotl_head_block"
+      }
+    ],
+    "priority": 0,
+    "unlock": [
+      {
+        "item": "moremobheads:lucy_axolotl_head_block"
+      }
+    ],
+    "result": {
+      "count": 1,
+      "item": "moremobheads:lucy_axolotl_head"
+    },
+    "tags": ["crafting_table"]
+  }
+}
