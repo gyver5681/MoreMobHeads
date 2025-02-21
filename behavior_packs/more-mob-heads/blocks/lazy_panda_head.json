@@ -36,7 +36,11 @@
           "up_22_5": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 1, 4)",
           "up_45": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 2, 4)",
           "up_67_5": "q.block_state('minecraft:block_face')  == 'up' && !math.mod(q.block_state('moremobheads:rotation') - 3, 4)",
-          "side": "q.block_state('minecraft:block_face')  != 'up'"
+          "down_0": "q.block_state('minecraft:block_face')  == 'down' && !math.mod(q.block_state('moremobheads:rotation'), 4)",
+          "down_22_5": "q.block_state('minecraft:block_face')  == 'down' && !math.mod(q.block_state('moremobheads:rotation') - 1, 4)",
+          "down_45": "q.block_state('minecraft:block_face')  == 'down' && !math.mod(q.block_state('moremobheads:rotation') - 2, 4)",
+          "down_67_5": "q.block_state('minecraft:block_face')  == 'down' && !math.mod(q.block_state('moremobheads:rotation') - 3, 4)",
+          "side": "q.block_state('minecraft:block_face')  != 'up' && q.block_state('minecraft:block_face')  != 'down'"
         }
       },
       "minecraft:material_instances": {
@@ -48,7 +52,7 @@
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": ["up", "side"]
+            "allowed_faces": ["all"]
           }
         ]
       },
@@ -74,7 +78,7 @@
         }
       },
       {
-        "condition": "q.block_state('minecraft:block_face') != 'up'",
+        "condition": "q.block_state('minecraft:block_face') != 'up' && q.block_state('minecraft:block_face') != 'down'",
         "components": {
           "minecraft:collision_box": {
             "origin": [-4, 4, 0],
@@ -82,6 +86,19 @@
           },
           "minecraft:selection_box": {
             "origin": [-4, 4, 0],
+            "size": [8, 8, 8]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-4, 8, -4],
+            "size": [8, 8, 8]
+          },
+          "minecraft:selection_box": {
+            "origin": [-4, 8, -4],
             "size": [8, 8, 8]
           }
         }

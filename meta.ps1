@@ -1,3 +1,5 @@
+Add-Type -AssemblyName System.Drawing
+# Add-Type -AssemblyName System.Drawing.GraphicsUnit
 
 # Path to the entity loot table folder from Vanilla Tweaks' More Mob Heads mod download.
 # Changes to original folder
@@ -31,6 +33,7 @@ $OutputBpBlocksLootTableFolder = "$($OutputBPFolder)\loot_tables\blocks"
 $OutputBpRecipesFolder = "$($OutputBPFolder)\recipes"
 
 # Output Resource Pack Folders
+$OutputRpBaseTexturesFolder = "$($OutputRPFolder)\textures\base"
 $OutputRpAttachablesFolder = "$($OutputRPFolder)\attachables"
 $OutputRpBlockTexturesFolder = "$($OutputRPFolder)\textures\blocks"
 $OutputRpAttachableTexturesFolder = "$($OutputRPFolder)\textures\entity\attachable"
@@ -54,6 +57,46 @@ $BlocksJsonHeader = "{`n  ""format_version"": ""$($FormatVersionBlocks)"","
 
 $TerrainTexturesHeader = "{`n  ""resource_pack_name"": ""vanilla"",`n  ""texture_name"": ""atlas.terrain"",`n  ""padding"": 8,`n  ""num_mip_levels"": 4,`n  ""texture_data"": {"
 
+
+function CleanTexture {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$InputPath,
+
+    [Parameter(Mandatory = $false)]
+    [string]$OutputPath = $InputPath
+  )
+
+  try {
+    $image = [System.Drawing.Image]::FromFile($InputPath)
+
+    # Create a new bitmap with the desired dimensions.
+    $croppedImage = New-Object System.Drawing.Bitmap 64, 16
+
+    # Create a graphics object to draw the cropped portion onto the new bitmap.
+    $graphics = [System.Drawing.Graphics]::FromImage($croppedImage)
+    $graphics.CompositingMode = [System.Drawing.Drawing2D.CompositingMode]::SourceCopy
+
+    # Draw the cropped portion of the original image onto the new bitmap.
+    $graphics.DrawImage($image, 8, 0, (new-object System.Drawing.Rectangle(8, 0, 16, 8)), [System.Drawing.GraphicsUnit]::Pixel)
+    $graphics.DrawImage($image, 40, 0, (new-object System.Drawing.Rectangle(40, 0, 16, 8)), [System.Drawing.GraphicsUnit]::Pixel)
+    $graphics.DrawImage($image, 0, 8, (new-object System.Drawing.Rectangle(0, 8, 64, 8)), [System.Drawing.GraphicsUnit]::Pixel)
+    $graphics.Dispose()
+    $image.Dispose()
+
+    # Save the cropped image to the specified output path.
+    $croppedImage.Save($OutputPath, [System.Drawing.Imaging.ImageFormat]::Png)
+
+    # Clean up resources
+    $croppedImage.Dispose()
+
+    # Write-Host "Image successfully cropped and saved to $($OutputPath)"
+  }
+  catch {
+    Write-Error "Error cropping image: $($_.Exception.Message)"
+  }
+}
+
 function DownloadSkin {
   param(
     $SkinUrl,
@@ -64,8 +107,9 @@ function DownloadSkin {
   $TrimmedItemName = $ItemName.Value.Trim('`"')
   $CleanedItemName = ($TrimmedItemName).Replace(" ", "_").ToLower()
   $ItemFileName = "$($CleanedItemName).png"
-  $OutFilePath = "$($OutputRpAttachableTexturesFolder)\$($ItemFileName)" 
+  $OutFilePath = "$($OutputRpBaseTexturesFolder)\$($ItemFileName)" 
   Invoke-WebRequest -Uri $SkinUrl.Value -Method Get -OutFile $OutFilePath 
+  CleanTexture -InputPath $OutFilePath -OutputPath "$($OutputRpAttachableTexturesFolder)\$($ItemFileName)" 
 
   Set-Variable -Name "SkinUrl" -Value "" -Scope Global
   Set-Variable -Name "ItemName" -Value "" -Scope Global

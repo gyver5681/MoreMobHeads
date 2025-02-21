@@ -1,24 +1,24 @@
 {
   "format_version": 2,
   "header": {
-    "name": "More Mob Heads v1.0.6 RP",
-    "description": "More Mob Heads Resource Pack v1.0.6",
+    "name": "More Mob Heads v1.0.7 RP",
+    "description": "More Mob Heads Resource Pack v1.0.7",
     "uuid": "455f0cde-b282-4d8e-bfda-79ee5adfb5f7",
-    "version": [1, 0, 6],
-    "min_engine_version": [1, 21, 50]
+    "version": [1, 0, 7],
+    "min_engine_version": [1, 21, 60]
   },
   "modules": [
     {
       "description": "More Mobheads",
       "type": "resources",
       "uuid": "4586a0de-97e1-4e65-b4f3-7925b43d6e54",
-      "version": [1, 0, 6]
+      "version": [1, 0, 7]
     }
   ],
   "dependencies": [
     {
       "uuid": "4c03ffb0-e113-4b18-878b-fc2a61065b46",
-      "version": [1, 0, 6]
+      "version": [1, 0, 7]
     }
   ]
 }

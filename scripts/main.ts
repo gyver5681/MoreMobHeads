@@ -20,7 +20,7 @@ const HeadRotationBlockComponent: BlockCustomComponent = {
     if (!player) return; // Exit if the player is undefined
 
     const blockFace = event.permutationToPlace.getState("minecraft:block_face");
-    if (blockFace !== "up") return; // Exit if the block hasn't been placed on the top of another block
+    if (blockFace !== "up" && blockFace !== "down") return; // Exit if the block hasn't been placed on the top of another block
 
     // Get the rotation using the function from earlier
     const playerYRotation: number = player.getRotation().y;
