@@ -1,3 +1,8 @@
+The latest version of this addon is for Minecraft v1.21.60.
+Currently there are no plans in the future to add support for newer releases. 
+
+The code in this repository is open source and available for working at any time. I believe the BedrockTweaks team was going to run with my code and create updates to their own version.
+
 # MoreMobHeads
 Bedrock port of the MoreMobHeads mod pack from VanillaTweaks.
 
